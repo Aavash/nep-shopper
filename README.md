@@ -1,4 +1,4 @@
-## Available Scripts
+## Project Deescription
 A open source ecommerce platform that uses firebase as a backend
 
 ### `npm start`
