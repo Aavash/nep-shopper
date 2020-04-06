@@ -3,15 +3,15 @@ import './menu-item.style.scss'
 
 const MenuItem = (props) => {
     return (
-        <div style={{
+        <div  className={`${props.size} menu-item`}>
+        <div className='background-image' style={{
             backgroundImage: `url(${props.imageUrl})`
-        }}
-            className={`${props.size} menu-item`}
->
+        }} >
             <div className='content'>
-                <h1 className='title'>{props.title}</h1>
+                <h1 className='title'>{props.title.toUpperCase()}</h1>
                 <span className='subtitle'>Shop Now</span>
             </div>
+        </div>
         </div>
     )};
 
