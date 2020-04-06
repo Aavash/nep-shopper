@@ -1,6 +1,6 @@
 import React from "react";
 
-import './homepage.style.scss'
+import '../../homepage.style.scss'
 
 const HomePage = () => {
     return (
@@ -15,7 +15,7 @@ const HomePage = () => {
                 </div>
 
                 <div className='menu-item'>
-                    <div className='content'>
+                    <div className='content     '>
                         <h1 className='title'>JACKETS</h1>
                         <span className='subtitle'>Shop Now</span>
                     </div>
